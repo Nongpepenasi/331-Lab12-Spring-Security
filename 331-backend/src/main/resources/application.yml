@@ -14,3 +14,10 @@ spring:
   servlet:
     multipart:
       max-file-size: 10MB
+application:
+  security:
+    jwt:
+      secret-key: XPa2UYu8ALSEWRrfl1zeh7EuxrgNve_iC2MdNGRlrq0q8xxK1hYZKj-Go0FPwVqa3M1Ry1AVYFeF-Mnj-ONWCQ
+      expiration: 86400000 # 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days
